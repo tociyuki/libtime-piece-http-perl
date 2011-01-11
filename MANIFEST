@@ -1,0 +1,15 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Time/Piece/HTTP.pm
+t/00.load.t
+t/01.methods.t
+t/02.http_strftime.t
+t/03.http_cookie_expires.t
+t/04.http_strptime.t
+t/05.localtime.t
+t/perlcritic.t
+t/pod-coverage.t
+t/pod.t
+

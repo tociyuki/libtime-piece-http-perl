@@ -1,0 +1,27 @@
+Time-Piece-HTTP version 0.0.1
+
+This module adds a few HTTP-specific methods to Time::Piece package.
+You might use this instead of Time::Piece itself.
+The methods in this module corresponds to HTTP::Date's one. 
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+
+DEPENDENCIES
+
+Time::Piece 1.20 or later
+Time::Local
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011, MIZUTANI Tociyuki
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
