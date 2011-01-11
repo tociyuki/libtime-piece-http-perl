@@ -110,7 +110,6 @@ Time::Piece::HTTP - Excludes HTTP-specific methods to Time::Piece.
 
 This module adds a few HTTP-specific methods to Time::Piece package.
 You might use this instead of Time::Piece itself.
-The methods in this module corresponds to L<HTTP::Date>'s one. 
 
 =head1 METHODS
 
