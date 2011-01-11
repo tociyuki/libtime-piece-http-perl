@@ -180,7 +180,7 @@ MIZUTANI Tociyuki  C<< <tociyuki@gmail.com> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (c) 2010, MIZUTANI Tociyuki C<< <tociyuki@gmail.com> >>.
+Copyright (c) 2011, MIZUTANI Tociyuki C<< <tociyuki@gmail.com> >>.
 All rights reserved.
 
 This module is free software; you can redistribute it and/or
