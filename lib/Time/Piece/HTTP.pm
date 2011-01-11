@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use Time::Piece ();
 
-use version; our $VERSION = '0.002';
+use version; our $VERSION = '0.003';
 # $Id$
 # $Version$
 
@@ -73,13 +73,13 @@ sub http_strptime {
             (?:Z|[+-][0-9]{2}:?[0-9]{2})?
         )\b
     }omsx) {
+        my $class = ref $self ? ref $self : $self;
         my @value = $2 ? ($6, $5, $4, $1, $MONTH{$2}, $3)
                      : $7 ? ($11, $10, $9, $8, $MONTH{$7}, $12)
                      : ($18, $17, $16, $15, $14 - 1, $13);
         if ($value[5] < 100) {
-            $value[5] += 100 * (int $self->gmtime->year / 100);
+            $value[5] += 100 * (int $class->gmtime->year / 100);
         }
-        my $class = ref $self ? ref $self : $self;
         return $class->gmtime(timegm(@value));
     }
     croak 'Error parsing time';
@@ -97,7 +97,7 @@ Time::Piece::HTTP - Excludes HTTP-specific methods to Time::Piece.
 
 =head1 VERSION
 
-0.002
+0.003
 
 =head1 SYNOPSIS
 

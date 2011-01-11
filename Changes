@@ -1,5 +1,8 @@
 Revision history for Time-Piece-HTTP
 
+0.003  Tue Jan 11 06:54:08 2011
+    ! fix: http_strptime: make $class->gmtime->year.
+
 0.002  Tue Jan 11 06:44:56 2011
     ! fix: $class->gmtime from invalid $self->gmtime.
 
