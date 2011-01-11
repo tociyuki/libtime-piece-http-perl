@@ -1,4 +1,4 @@
-Time-Piece-HTTP version 0.001
+Time-Piece-HTTP version 0.002
 
 This module adds a few HTTP-specific methods to Time::Piece package.
 You might use this instead of Time::Piece itself.
